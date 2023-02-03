@@ -1,0 +1,46 @@
+html {
+    background-color:#020659;
+
+}
+
+
+
+
+
+body {
+    width:375px;
+    margin:0 auto;
+    display:grid;
+    grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "footer"
+    
+}
+
+
+main {
+    grid-area:main;
+    background-color:#fff;
+}
+
+header {
+    grid-area:header;
+    
+    color:#fff
+}
+
+
+
+nav {
+    grid-area:nav;
+    background-color:#030A8C;
+    text-decoration:none;
+    list-style-type:none;
+}
+
+footer {
+    grid-area:footer;
+    
+}
