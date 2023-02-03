@@ -3,10 +3,6 @@ html {
 
 }
 
-
-
-
-
 body {
     width:375px;
     margin:0 auto;
@@ -15,8 +11,7 @@ body {
     "nav"
     "header"
     "main"
-    "footer"
-    
+    "footer"  
 }
 
 
@@ -36,11 +31,19 @@ header {
 nav {
     grid-area:nav;
     background-color:#030A8C;
-    text-decoration:none;
-    list-style-type:none;
+    color:#fff;
+    
 }
 
 footer {
     grid-area:footer;
     
+}
+
+ul + li {
+    font-variant: small-caps;
+}
+
+nav, h1, h2, h3 {
+    text-transform:uppercase;
 }
