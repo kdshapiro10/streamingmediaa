@@ -26,8 +26,10 @@ header {
 
 }
 
-nav ul {
+nav a {
     text-decoration:none;
+    display:block;
+    
 }
 
 nav {
