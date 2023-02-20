@@ -21,8 +21,9 @@ main {
 }
 
 header {
-    background: linear-gradient(45deg, #2104D9, #000000);
+    background: linear-gradient(45deg, blue, black);
     grid-area:header;
+
 }
 
 nav ul {
