@@ -21,9 +21,8 @@ main {
 }
 
 header {
+    background: linear-gradient(45deg, #2104D9, #000000);
     grid-area:header;
-    
-    color:#fff
 }
 
 nav ul {
