@@ -26,10 +26,14 @@ header {
 
 }
 
+nav li {
+    list-style:none;
+}
+
 nav a {
     text-decoration:none;
     display:block;
-    
+
 }
 
 nav {
