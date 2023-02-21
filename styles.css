@@ -22,6 +22,7 @@ main {
 
 header {
     background: linear-gradient(45deg, blue, black);
+    color:#fff;
     grid-area:header;
 
 }
