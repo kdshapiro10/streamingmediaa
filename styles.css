@@ -7,6 +7,7 @@ html {
 body {
     width:375px;
     margin:0 auto;
+    background-color:#fff;
     display:grid;
     grid-template-areas:
     "nav"
@@ -51,6 +52,7 @@ nav a:hover {
 
 footer {
     grid-area:footer;
+    color:#590242;
     
 }
 
@@ -72,7 +74,19 @@ nav, h1, h2, h3 {
     color:#fff;
 }
 
+#playlists section {
+    background-color:#2699FB;
+}
 
+#curated section{
+    background-color:#020659;
+}
+
+
+#curated {
+    background-color:#020873;
+    color:#fff;
+}
 
 h1 {
     font-size:1.25em;
@@ -110,4 +124,11 @@ footer p {
 }
 #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
 
+}
+
+@media screen and (min-width:834px) {
+    nav a:hover {
+        background-color:#590242;
+    }
+    
 }
