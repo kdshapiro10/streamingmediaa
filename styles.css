@@ -29,6 +29,12 @@ header {
 
 }
 
+nav {
+    grid-area:nav;
+    background-color:#030A8C;
+    color:#fff;
+    
+}
 nav li {
     list-style:none;
 }
@@ -37,15 +43,10 @@ nav a {
     text-decoration:none;
     color:#fff;
     display:block;
-
-
 }
 
-nav {
-    grid-area:nav;
-    background-color:#030A8C;
-    color:#fff;
-    
+nav a:hover {
+    background-color:#590242;
 }
 
 footer {
@@ -66,6 +67,13 @@ nav, h1, h2, h3 {
     color:#fff;
 }
 
+#playlists {
+    background-color: #0D8DFB;
+    color:#fff;
+}
+
+
+
 h1 {
     font-size:1.25em;
 }
@@ -77,4 +85,29 @@ p, dl, dd {
 }
 footer p {
     font-size: .75em;
+}
+
+#trending ::-webkit-scrollbar {
+
+}
+#trending ::-webkit-scrollbar-track {
+
+}
+#trending ::-webkit-scrollbar-thumb {
+
+}
+#trending ::-webkit-scrollbar-thumb:hover {
+
+}
+#playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
+
+}
+#playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track  {
+
+}
+#playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
+
+}
+#playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
+
 }
