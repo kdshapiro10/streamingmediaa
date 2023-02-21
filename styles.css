@@ -1,5 +1,6 @@
 html {
     background-color:#020659;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 
 }
 
@@ -22,12 +23,22 @@ main {
 
 header {
     background: linear-gradient(45deg, blue, black);
+    color:#fff;
+    padding-left:10px;
     grid-area:header;
-    color:#fff
+
 }
 
-nav ul {
+nav li {
+    list-style:none;
+}
+
+nav a {
     text-decoration:none;
+    color:#fff;
+    display:block;
+
+
 }
 
 nav {
@@ -48,4 +59,22 @@ ul + li {
 
 nav, h1, h2, h3 {
     text-transform:uppercase;
+}
+
+.button {
+    background-color:#590242;
+    color:#fff;
+}
+
+h1 {
+    font-size:1.25em;
+}
+h2, h3 {
+    font-size: 1em;
+}
+p, dl, dd {
+    font-size: 1em;
+}
+footer p {
+    font-size: .75em;
 }
