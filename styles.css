@@ -1,5 +1,6 @@
 html {
     background-color:#020659;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 
 }
 
@@ -23,6 +24,7 @@ main {
 header {
     background: linear-gradient(45deg, blue, black);
     color:#fff;
+    padding-left:10px;
     grid-area:header;
 
 }
@@ -33,7 +35,9 @@ nav li {
 
 nav a {
     text-decoration:none;
+    color:#fff;
     display:block;
+
 
 }
 
