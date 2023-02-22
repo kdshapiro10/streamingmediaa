@@ -46,10 +46,6 @@ nav a {
     display:block;
 }
 
-nav a:hover {
-    background-color:#590242;
-}
-
 footer {
     grid-area:footer;
     color:#590242;
@@ -79,12 +75,12 @@ nav, h1, h2, h3 {
 }
 
 #curated section{
-    background-color:#020659;
+    background-color:#020873;
 }
 
 
 #curated {
-    background-color:#020873;
+    background-color:#030A8C;
     color:#fff;
 }
 
