@@ -63,6 +63,10 @@ nav, h1, h2, h3 {
 .button {
     background-color:#590242;
     color:#fff;
+    padding:10px;
+    display:inline-block;
+    border-radius:10px;
+    border:none;
 }
 
 #playlists {
