@@ -56,7 +56,7 @@ footer {
     
 }
 
-ul + li {
+li:first-child {
     font-variant: small-caps;
 }
 
