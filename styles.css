@@ -189,14 +189,19 @@ footer p {
 }
 
 @media screen and (min-width:834px) {
-    ul {
-        overflow: visible;
-        position: absolute;
-        top: 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    body {
+        width:834px;
     }
     label span, input {
-        display: none;
+        display:none;
+    }
+    ul {
+        width:834px;
+        overflow:visible;
+        height:auto;
+        position:absolute;
+        top:0;
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr;
     }
 }
