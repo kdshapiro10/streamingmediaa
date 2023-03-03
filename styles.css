@@ -51,10 +51,7 @@ nav {
 nav ul {
     text-align: center;
 }
-nav h2 {
-    visibility: hidden;
-    height: 1px;
-}
+
 ul {
     margin: 0;
     padding: 0;
