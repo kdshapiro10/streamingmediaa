@@ -138,14 +138,6 @@ footer {
     
 }
 
-li:first-child {
-    font-variant: small-caps;
-}
-
-nav, h1, h2, h3 {
-    text-transform:uppercase;
-}
-
 .button {
     background-color:#590242;
     color:#fff;
