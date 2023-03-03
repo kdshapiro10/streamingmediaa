@@ -1,13 +1,12 @@
 html {
     background-color:#020659;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-
 }
 
 body {
     width:375px;
     margin:0 auto;
     background-color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
     display:grid;
     grid-template-areas:
     "nav"
@@ -16,41 +15,74 @@ body {
     "footer"  
 }
 
-
 main {
     grid-area:main;
     background-color:#fff;
 }
 
 header {
-    background: linear-gradient(45deg, blue, black);
-    color:#fff;
-    padding-left:10px;
-    grid-area:header;
-
+    grid-row:2/3;
+    background: rgb(33,4,217);
+    background: linear-gradient(90deg, rgba(33,4,217,1) 0%, rgba(2,6,89,1) 33%, rgba(2,6,89,1) 66%, rgba(0,0,0,1) 100%);
+    padding:10px;
 }
 
+h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2, h3 {
+    font-size: 20px;
+    color: #590242;
+    line-height: 2em;
+}
+header p, h1, h2 {
+    padding: 0 32px 0 32px;
+}
+header p {
+    color: #ffffff;
+    line-height: 1.25em;
+}
 nav {
-    grid-area:nav;
-    background-color:#030A8C;
-    color:#fff;
-    
+  grid-row:1/2;
+   background-color: #030A8C;
+    text-transform: uppercase;
 }
-nav li {
-    list-style:none;
+nav ul {
+    text-align: center;
 }
-
-nav a {
-    text-decoration:none;
-    color:#fff;
-    display:block;
+nav h2 {
+    visibility: hidden;
+    height: 1px;
 }
-
 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     overflow: hidden;
+    background-color: #2104D9;
     max-height: 0;
     transition: max-height .2s ease-out;
 }
+li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+[href="#muzak"] {
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 16px 16px;
+}
+
+a:hover, input:hover {
+    background-color: #590242;
+}
+
 label {
     cursor: pointer;
     display: inline-block;
