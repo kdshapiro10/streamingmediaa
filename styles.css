@@ -87,6 +87,7 @@ nav {
 
 nav h2 {
     visibility:hidden;
+    height:1px;
 }
 
 nav ul {
@@ -180,6 +181,10 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 
         
     }
+
+    [href="muzak"] {
+        font-size:30px;
+        padding:16px 16px;
 
 
     
