@@ -179,7 +179,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
         margin:0 auto;
         background-color:#fff;
     }
-    
+        
     ul {
         width:834px;
         overflow: visible;
