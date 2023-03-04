@@ -52,7 +52,7 @@ html {
 body {
     width: 375px;
     margin: 0 auto;
-    color: #ffffff;
+    background-color: #ffffff;
     display:grid;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -146,6 +146,7 @@ label span:before, label span:after {
     transition: all .2s ease-out;
     width: 100%;
 }
+
 label span:before {
     top: 5px;
 }
@@ -174,7 +175,10 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 @media screen and (min-width:834px) {
     body {
         width:834px;
+        margin:0 auto;
+        
     }
+
     
     ul {
         overflow: visible;
@@ -182,6 +186,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
         top: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background-color:#030A8C;
     }
     label span, input {
         display: none;
