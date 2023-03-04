@@ -176,8 +176,11 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     body {
         width:834px;
         margin:0 auto;
+        background-color:#fff;
+
         
     }
+
 
     
     ul {
