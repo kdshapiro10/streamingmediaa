@@ -52,7 +52,7 @@ html {
 body {
     width: 375px;
     margin: 0 auto;
-    background-color: #ffffff;
+    color: #ffffff;
     display:grid;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -101,6 +101,25 @@ ul {
     list-style:none;
     max-height:0;
     transition:max-height .2s ease-out;
+}
+
+li a {
+    display:block;
+    padding:20px 20px;
+    text-decoration:none;
+    color:#fff;
+}
+
+[href="muzak"] {
+    text-transform:capitalize;
+    font-variant:small-caps;
+    font-weight:bold;
+    font-size:30px;
+    padding:16px 16px;
+}
+
+a:hover, input:hover {
+    background-color:#590242;
 }
 
 label {
