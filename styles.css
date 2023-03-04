@@ -181,16 +181,12 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 
         
     }
-
-    [href="muzak"] {
-        font-size:30px;
-        padding:16px 16px;
-    }
-
     
     ul {
+        width:834px;
         overflow: visible;
         position: absolute;
+        height:auto;
         top: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
