@@ -46,3 +46,121 @@ table {
 	border-spacing: 0;
 }
 
+html {
+    background-color: #020659;
+}
+body {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display:grid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  grid-row:2/3;
+    background: rgb(33,4,217);
+    background: linear-gradient(90deg, rgba(33,4,217,1) 0%, rgba(2,6,89,1) 33%, rgba(2,6,89,1) 66%, rgba(0,0,0,1) 100%);
+    padding:10px;
+}
+h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2, h3 {
+    font-size: 20px;
+    color: #590242;
+    line-height: 2em;
+}
+header p, h1, h2 {
+    padding: 0 32px 0 32px;
+}
+header p {
+    color: #ffffff;
+    line-height: 1.25em;
+}
+
+nav {
+    grid-row:1/2;
+    background-color:#030A8C;
+    text-transform:uppercase;
+}
+
+nav h2 {
+    visibility:hidden;
+}
+
+nav ul {
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding:0;
+    background-color:#2104D9;
+    overflow:hidden;
+    list-style:none;
+    max-height:0;
+    transition:max-height .2s ease-out;
+}
+
+label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+label span {
+    background-color: #ffffff;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background-color .2s ease-out;
+    width: 18px;
+}
+label span:before, label span:after {
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+label span:before {
+    top: 5px;
+}
+label span:after {
+    top: -5px;
+}
+input {
+    display: none;
+}
+input:checked ~ ul {
+    max-height: 500px;
+}
+input:checked ~ label span {
+    background: transparent;
+}
+input:checked ~ label span:before {
+    transform: rotate(-45deg);
+}
+input:checked ~ label span:after {
+    transform: rotate(45deg);
+}
+input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
+    top: 0;
+}
+
+@media screen and (min-width:834px) {
+    ul {
+        overflow: visible;
+        position: absolute;
+        top: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    label span, input {
+        display: none;
+    }
+}
