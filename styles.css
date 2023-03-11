@@ -77,7 +77,7 @@ header p, h1, h2 {
 
 header h1 {
     color:#ffffff;
-    font-size: 35px;
+    font-size:20px;
 }
 
 
@@ -184,13 +184,6 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     grid-row: 1fr 1fr 1fr 1fr 1fr;
     overflow: hidden;
 }
-
-
-
-
-
-
-#playlists 
 
 
 @media screen and (min-width:834px) {
