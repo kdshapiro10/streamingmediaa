@@ -180,10 +180,6 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     top: 0;
 }
 
-#trending {
-    grid-row: 1fr 1fr 1fr 1fr 1fr;
-    overflow: hidden;
-}
 
 
 @media screen and (min-width:834px) {
