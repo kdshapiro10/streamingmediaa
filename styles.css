@@ -74,6 +74,13 @@ h2, h3 {
 header p, h1, h2 {
     padding: 0 32px 0 32px;
 }
+
+header h1 {
+    color:#ffffff;
+    font-size: 35px;
+}
+
+
 header p {
     color: #ffffff;
     line-height: 1.25em;
@@ -172,6 +179,19 @@ input:checked ~ label span:after {
 input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
     top: 0;
 }
+
+#trending {
+    grid-row: 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+}
+
+
+
+
+
+
+#playlists 
+
 
 @media screen and (min-width:834px) {
     body {
