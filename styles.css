@@ -67,7 +67,7 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 h2, h3 {
-    font-size: 20px;
+    font-size: 1em;
     color: #590242;
     line-height: 2em;
 }
@@ -75,11 +75,18 @@ header p, h1, h2 {
     padding: 0 32px 0 32px;
 }
 
-header h1 {
+h1 {
     color:#ffffff;
-    font-size:20px;
+    font-size:1.25em;
 }
 
+p,dl,dd {
+    font-size:1em;
+}
+
+footer p {
+    font-size:.75em;
+}
 
 header p {
     color: #ffffff;
@@ -180,7 +187,40 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     top: 0;
 }
 
+audio::-webkit-media-controls-mute-button {
 
+}
+audio::-webkit-media-controls-play-button {
+
+}
+audio::-webkit-media-controls-enclosure {
+
+}
+
+#trending ::-webkit-scrollbar {
+
+}
+#trending ::-webkit-scrollbar-track {
+
+}
+#trending ::-webkit-scrollbar-thumb {
+
+}
+#trending ::-webkit-scrollbar-thumb:hover {
+
+}
+#playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
+
+}
+#playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track  {
+
+}
+#playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
+
+}
+#playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
+
+}
 
 @media screen and (min-width:834px) {
     body {
