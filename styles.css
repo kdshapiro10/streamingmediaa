@@ -162,15 +162,11 @@ label span:before, label span:after {
     width: 100%;
 }
 
-.button {
-    background-color: #590242;
-
-}
-
-#trending {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
+.scroll {
+    display:grid;
+    grid-template-columns: repeat (5,1fr);
+    overflow-x:auto;
+    overflow-y: hidden;
 }
 
 label span:before {
@@ -198,15 +194,6 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     top: 0;
 }
 
-audio::-webkit-media-controls-mute-button {
-
-}
-audio::-webkit-media-controls-play-button {
-
-}
-audio::-webkit-media-controls-enclosure {
-
-}
 
 #trending ::-webkit-scrollbar {
 
