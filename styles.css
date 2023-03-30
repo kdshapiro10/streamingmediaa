@@ -162,6 +162,17 @@ label span:before, label span:after {
     width: 100%;
 }
 
+.button {
+    background-color: #590242;
+
+}
+
+#trending {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
 label span:before {
     top: 5px;
 }
