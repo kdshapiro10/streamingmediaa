@@ -201,7 +201,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 }
 
 .scroll div {
-    position:absolute;
+    position: absolute;
     top:251px;
     background-color:rgba(255,255,255,.75);
     padding: 5px;
@@ -213,10 +213,9 @@ dl {
     display:flex;
 }
 
-dd {
-    padding-right:10px;
+dt {
+    padding-right:5px;
 }
-
 
 
 .audio {
