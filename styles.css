@@ -138,7 +138,9 @@ a:hover, input:hover {
 }
 
 .button {
-    
+    background-color:#590242;
+    color:#ffffff;
+
 }
 
 label {
@@ -215,17 +217,22 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 
 dl {
     display:flex;
+    color:#590242;
 }
 
 dt {
     padding-right:5px;
 }
 
-
 .audio {
     position:absolute;
     bottom: 150px;
     left: 5px;
+}
+
+#trending {
+    display:grid;
+    overflow: hidden;
 }
 
 #trending ::-webkit-scrollbar {
