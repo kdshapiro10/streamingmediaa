@@ -140,7 +140,12 @@ a:hover, input:hover {
 .button {
     background-color:#590242;
     color:#ffffff;
+    padding: 5px;
 
+}
+
+.button:hover {
+    background-color: #020659;
 }
 
 label {
