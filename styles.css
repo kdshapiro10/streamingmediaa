@@ -137,6 +137,10 @@ a:hover, input:hover {
     background-color:#590242;
 }
 
+.button {
+    
+}
+
 label {
     cursor: pointer;
     display: inline-block;
