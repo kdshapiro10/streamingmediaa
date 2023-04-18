@@ -141,6 +141,7 @@ a:hover, input:hover {
     background-color:#590242;
     color:#ffffff;
     padding: 5px;
+    margin-left: 10px;
 
 }
 
@@ -237,6 +238,7 @@ dt {
 
 #trending {
     display:grid;
+    grid-template-columns: repeat (5, 1fr);
     overflow: hidden;
 }
 
@@ -266,6 +268,19 @@ dt {
 #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
     background: #ffffff;
 }
+
+#playlists {
+    background-color: ;
+    color:#ffffff;
+
+}
+
+
+#curated {
+    background-color: ;
+    color:#ffffff;
+}
+
 
 @media screen and (min-width:834px) {
     body {
