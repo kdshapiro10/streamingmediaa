@@ -66,11 +66,12 @@ h1, h2, h3 {
     font-weight: bold;
     text-transform: uppercase;
 }
-h2, h3 {
+h2, h3  {
     font-size: 1em;
-    color: #590242;
     line-height: 2em;
 }
+
+
 header p, h1, h2 {
     padding: 0 32px 0 32px;
 }
@@ -78,6 +79,7 @@ header p, h1, h2 {
 h1 {
     color:#ffffff;
     font-size:1.25em;
+    margin-bottom: 10px;
 }
 
 p,dl,dd {
@@ -238,8 +240,12 @@ dt {
 
 #trending {
     display:grid;
-    grid-template-columns: repeat (5, 1fr);
-    overflow: hidden;
+    grid-template-columns: repeat (1fr 1fr 1fr 1fr 1fr);
+    margin-top:10px;
+}
+
+#trending h3 {
+    color:#590242;
 }
 
 #trending ::-webkit-scrollbar {
@@ -270,15 +276,34 @@ dt {
 }
 
 #playlists {
-    background-color: ;
+    background-color:#2699FB;
     color:#ffffff;
 
 }
 
+#playlists section {
+    background-color:#0D8DFB;
+}
 
 #curated {
-    background-color: ;
+    background-color:#030A8C ;
     color:#ffffff;
+}
+
+#curated h3 {
+    color:#ffffff;
+}
+
+#curated section {
+    background-color:#020659;
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color:#590242;
 }
 
 
